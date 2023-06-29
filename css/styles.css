@@ -441,7 +441,6 @@
   }
   
   footer {
-    
     background-color: #596E79;
   }
   
@@ -493,7 +492,7 @@
   
   .footer-items-list {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .footer-items-link {
