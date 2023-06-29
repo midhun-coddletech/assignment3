@@ -1,0 +1,489 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    max-width: 1350px;
+    margin: auto;
+    padding: 80px 0;
+  }
+  
+  nav {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 65px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .luxterior-logo {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5c6c79;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5c6c79;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .nav-icons {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color: #5c6c79;
+    cursor: pointer;
+  }
+  
+  .header-section-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .header-container {
+    padding-top: 15px;
+    position: relative;
+  }
+  
+  .banner-image {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    border-radius: 5px;
+  }
+  
+  .header-banner {
+    position: absolute;
+    top: 20%;
+    left: -60%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: right;
+    padding-right: 170px;
+    background-color: #5c6c79;
+    border-radius: 5px;
+  }
+  
+  .header-content {
+    max-width: 450px;
+    padding: 30px 80px;
+    color: white;
+  }
+  
+  .section-brief {
+    color: #e2e8f0;
+  }
+  
+  .down-arrow-container {
+    position: absolute;
+    bottom: 60px;
+    right: -15px;
+    height: 120px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background-color: #5c6c79;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .square-box {
+    position: absolute;
+    bottom: 60px;
+    left: 320px;
+    height: 120px;
+    width: 120px;
+    border: 3px solid #5c6c79;
+    border-radius: 5px;
+    z-index: -1;
+  }
+  
+  .benefits-title-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .benefits-section-title {
+    font-size: 40px;
+    max-width: 500px;
+    line-height: 1.5;
+    margin: 0px 0px 10px 30px;
+  }
+  
+  .dash-icon {
+    font-size: 170px;
+    font-weight: 100;
+    color: #5c6c79;
+    margin-left: -7px;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 160px;
+  }
+  
+  .benefits-items-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .benefits-icons {
+    font-size: 40px;
+    color: #5c6c79;
+  }
+  
+  .benefits-items-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #242424;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .benefits-item-description {
+    font-size: 13px;
+    line-height: 2;
+    color: #5c6c79;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .experience-container {
+    display: flex;
+    gap: 150px;
+  }
+  
+  .experience-image {
+    max-width: 500px;
+    border-radius: 5px;
+  }
+  
+  .experience-section-title {
+    max-width: 450px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .experience-text {
+    max-width: 550px;
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #5c6c79;
+    line-height: 2;
+  }
+  
+  .portfolio-items-list {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    margin: 55px 0;
+  }
+  
+  .portfolio-items-title {
+    font-size: 65px;
+    font-weight: 600;
+    color: #5A6F7A;
+  }
+  
+  .portfolio-items-text {
+    color: #596E79;
+    max-width: 100px;
+  }
+  
+  .learn-more-button {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #596E79;
+  }
+  
+  .button-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .process-container {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .process-section-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 15px;
+    width: 500px;
+  }
+  
+  .process-timeline {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 60px auto;
+    column-gap: 30px;
+    row-gap: 10px;
+    align-items: center;
+  }
+  
+  .number {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #5c6c79;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+  }
+  
+  .process-items-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #242424;
+  }
+  
+  .process-items-text {
+    max-width: 437px;
+  }
+  
+  .process-timeline {
+    margin-bottom: 30px;
+    color: #5c6c79;
+  }
+  
+  .rotated-dash {
+    height: 100%;
+    width: 2px;
+    margin: auto;
+    background-color: #e2e8f0;
+  }
+  
+  .guest-room-image {
+    max-width: 500px;
+    border-radius: 5px;
+  }
+  
+  .feedback-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .feedback-head-text {
+    font-size: 40px;
+    width: 450px;
+  }
+  
+  .left-arrow {
+    color: #BEBFC0;
+    font-size: 30px;
+  }
+  
+  .right-arrow {
+    color: #6F8089;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  
+  .feedback-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .feedback-box {
+    padding: 50px;
+    display: grid;
+    place-content: baseline;
+    gap: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #5c6c79;
+  }
+  
+  .double-quotes {
+    font-size: 70px;
+    margin-left: -5px;
+  }
+  
+  .feedback-title {
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 400px;
+  }
+  
+  .feedback-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #e2e8f0;
+    max-width: 500px;
+  }
+  
+  .user-data-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .user-profile-picture {
+    max-width: 50px;
+    border-radius: 100%;
+  }
+  
+  .username {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .user-designation {
+    font-size: 14px;
+    color: #e2e8f0;
+  }
+  
+  .subscribe-container {
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .subscribe-title {
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 30px;
+  }
+  
+  .subscribe-text {
+    margin: 40px 0 10px 0;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #424445;
+  }
+  
+  .subscribe-box {
+    position: absolute;
+    width: 800px;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .email-box {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+  }
+  
+  .subscribe-button {
+    padding: 1rem 3rem;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-color: #5c6c79;
+    cursor: pointer;
+  }
+  
+  
+  footer {
+    background-color: #596E79;
+  }
+  
+  .footer-elements {
+    display: flex;
+    padding: 80px 0 130px 0;
+    line-height: 2em;
+    color: white;
+    background-color: #596E79;
+  }
+  
+  .footer-elements h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .footer-elements h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .company-text {
+    flex: 2;
+  }
+  
+  .company-text p {
+    margin-right: 110px;
+    font-size: 15px;
+  }
+  
+  .about {
+    flex: 1;
+  }
+  
+  .company {
+    flex: 1;
+  }
+  
+  .support {
+    flex: 1;
+  }
+  
+  .get-in-touch {
+    flex: 1;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+    font-size: 15px;
+  }
+  
+  footer a,
+  p,
+  li {
+    text-decoration: none;
+    color: #c3c3c3;
+  }
+  
+  footer i {
+    font-size: 25px;
+    margin-right: 20px;
+  }
