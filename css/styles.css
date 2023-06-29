@@ -11,13 +11,13 @@
   .container {
     max-width: 1350px;
     margin: auto;
-    padding: 80px 0;
+    padding: 80px;
   }
   
   nav {
     max-width: 1350px;
     margin: 0 auto;
-    padding: 65px 0px;
+    padding: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,8 +54,8 @@
   }
   
   .header-section-title {
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     line-height: 60px;
     margin-bottom: 15px;
   }
@@ -75,30 +75,30 @@
   .header-banner {
     position: absolute;
     top: 20%;
-    left: -60%;
+    left: -63%;
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: right;
-    padding-right: 170px;
     background-color: #5c6c79;
     border-radius: 5px;
   }
   
   .header-content {
-    max-width: 450px;
+    max-width: 500px;
     padding: 30px 80px;
     color: white;
   }
   
   .section-brief {
     color: #e2e8f0;
+    max-width: 300px; 
   }
   
   .down-arrow-container {
     position: absolute;
     bottom: 60px;
-    right: -15px;
+    right: 60px;
     height: 120px;
     width: 150px;
     display: flex;
@@ -114,7 +114,7 @@
   .square-box {
     position: absolute;
     bottom: 60px;
-    left: 320px;
+    left: 250px;
     height: 120px;
     width: 120px;
     border: 3px solid #5c6c79;
@@ -226,6 +226,14 @@
     text-decoration: none;
     font-weight: 500;
     color: #596E79;
+    transition: ease-in-out 0.3s;
+  }
+
+  .learn-more-button:hover {
+    background-color: #596E79;
+    color: white;
+    border-color: #596E79;
+    transition: ease-in-out 0.3s;
   }
   
   .button-group {
@@ -251,7 +259,7 @@
     display: grid;
     grid-template-columns: 60px auto;
     column-gap: 30px;
-    row-gap: 10px;
+    row-gap: 20px;
     align-items: center;
   }
   
@@ -272,6 +280,7 @@
   }
   
   .process-items-text {
+    color: #5c6c79;
     max-width: 437px;
   }
   
@@ -290,6 +299,8 @@
   .guest-room-image {
     max-width: 500px;
     border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 35px;
   }
   
   .feedback-head {
@@ -371,7 +382,7 @@
   }
   
   .subscribe-container {
-    max-width: 600px;
+    max-width: 800px;
     text-align: center;
     position: relative;
   }
@@ -383,7 +394,7 @@
   }
   
   .subscribe-text {
-    margin: 40px 0 10px 0;
+    margin: 40px 60px 15px 60px;
     line-height: 1.5;
     font-weight: 500;
     color: #424445;
@@ -392,7 +403,7 @@
   .subscribe-box {
     position: absolute;
     width: 800px;
-    bottom: -30px;
+    bottom: -35px;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px;
@@ -404,42 +415,51 @@
   
   .email-box {
     width: 100%;
-    padding: 1rem 2rem;
-    font-size: 0.9rem;
+    padding: 15px 30px;
+    font-size: 15px;
     outline: none;
     border: none;
   }
   
   .subscribe-button {
-    padding: 1rem 3rem;
+    padding: 15px 50px;
     color: white;
     outline: none;
     text-decoration: none;
     border: none;
     background-color: #5c6c79;
     cursor: pointer;
+    border: 3px solid #5c6c79;
+    transition: ease-in-out 0.3s;
+  }
+
+  .subscribe-button:hover {
+    background-color: white;
+    color: #5c6c79;
+    border: 3px solid #5c6c79;
+    transition: ease-in-out 0.3s;
   }
   
-  
   footer {
+    
     background-color: #596E79;
   }
   
   .footer-elements {
     display: flex;
-    padding: 80px 0 130px 0;
-    line-height: 2em;
+    line-height: 2;
     color: white;
     background-color: #596E79;
   }
   
-  .footer-elements h2 {
+  .company-text-title {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 30px;
+    margin-top: 30px;
   }
   
-  .footer-elements h3 {
+  .footer-items-title {
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 20px;
@@ -450,7 +470,7 @@
     flex: 2;
   }
   
-  .company-text p {
+  .company-text-info {
     margin-right: 110px;
     font-size: 15px;
   }
@@ -471,19 +491,18 @@
     flex: 1;
   }
   
-  footer ul li {
+  .footer-items-list {
     list-style-type: none;
     font-size: 15px;
   }
   
-  footer a,
-  p,
-  li {
+  .footer-items-link {
     text-decoration: none;
     color: #c3c3c3;
   }
   
-  footer i {
-    font-size: 25px;
+  .mediai-links {
+    font-size: 27px;
     margin-right: 20px;
+    color: white;
   }
