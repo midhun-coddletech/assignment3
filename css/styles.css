@@ -503,7 +503,7 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   .container {
     max-width: 950px;
@@ -585,129 +585,66 @@ footer {
   .experience-section-title {
     max-width: 300px;
     font-size: 30px;
-    font-weight: 700;
     line-height: 60px;
   }
 
   .experience-text {
-    max-width: 550px;
-    font-weight: 500;
     margin-top: 30px;
     font-size: 12px;
-    color: #5c6c79;
-    line-height: 2;
   }
 
   .portfolio-items-list {
-    display: flex;
-    gap: 70px;
-    justify-content: flex-start;
+    gap: 40px;
     margin: 20px 0px;
   }
 
   .portfolio-items-title {
     font-size: 50px;
-    font-weight: 600;
-    color: #5A6F7A;
   }
 
   .portfolio-items-text {
-    color: #596E79;
     max-width: 100px;
     margin-bottom: 20px;
   }
 
   .learn-more-button {
-    background-color: white;
-    border-width: 2px;
-    border-style: solid;
     padding: 10px 20px;
     font-size: 12px;
-    text-decoration: none;
-    font-weight: 500;
-    color: #596E79;
-    transition: ease-in-out 0.3s;
-  }
-
-  .learn-more-button:hover {
-    background-color: #596E79;
-    color: white;
-    border-color: #596E79;
-    transition: ease-in-out 0.3s;
-  }
-
-  .button-group {
-    display: flex;
-    align-items: center;
   }
 
   .process-container {
-    display: flex;
     gap: 70px;
   }
 
   .process-section-title {
     font-size: 35px;
-    font-weight: 700;
-    line-height: 50px;
     width: 400px;
   }
 
   .process-timeline {
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 60px auto;
+    margin-top: 60px;
     column-gap: 15px;
     row-gap: 15px;
-    align-items: center;
   }
 
   .number {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: #5c6c79;
-    color: white;
-    text-align: center;
     line-height: 50px;
   }
 
   .process-items-title {
     font-size: 20px;
-    font-weight: 600;
-    color: #242424;
   }
 
   .process-items-text {
     font-size: 13px;
-    color: #5c6c79;
-    max-width: 437px;
-  }
-
-  .process-timeline {
-    margin-bottom: 30px;
-    color: #5c6c79;
-  }
-
-  .rotated-dash {
-    height: 100%;
-    width: 2px;
-    margin: auto;
-    background-color: #e2e8f0;
   }
 
   .guest-room-image {
     max-width: 400px;
-    border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 40px;
-  }
-
-  .feedback-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 70px;
   }
 
   .feedback-head-text {
@@ -715,156 +652,71 @@ footer {
     width: 350px;
   }
 
-  .feedback-group {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
   .feedback-box {
     padding: 30px;
-    display: grid;
     gap: 10px;
-    color: white;
-    border-radius: 5px;
-    background-color: #5c6c79;
-  }
-
-  .double-quotes {
-    font-size: 70px;
-    margin-left: -5px;
   }
 
   .feedback-title {
     font-size: 20px;
-    font-weight: 500;
     max-width: 300px;
   }
 
   .feedback-text {
-    margin-bottom: 15px;
     font-size: 11px;
-    color: #e2e8f0;
-    max-width: 500px;
-  }
-
-  .user-data-section {
-    display: flex;
-    align-items: center;
-    gap: 20px;
   }
 
   .user-profile-picture {
     max-width: 40px;
-    border-radius: 100%;
   }
 
   .username {
     font-size: 12px;
-    font-weight: 500;
   }
 
   .user-designation {
     font-size: 11px;
-    color: #e2e8f0;
   }
 
   .subscribe-container {
     max-width: 600px;
-    text-align: center;
-    position: relative;
   }
 
   .subscribe-title {
     font-size: 35px;
-    line-height: 1.5;
-    margin: 20px;
   }
 
   .subscribe-text {
     margin: 30px;
-    line-height: 1.5;
-    font-weight: 500;
-    color: #424445;
   }
 
   .subscribe-box {
-    position: absolute;
     width: 500px;
     bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 5px;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .email-box {
-    width: 100%;
-    padding: 15px 30px;
-    font-size: 13px;
-    outline: none;
-    border: none;
   }
 
   .subscribe-button {
     padding: 10px 40px;
-    color: white;
-    outline: none;
-    text-decoration: none;
-    border: none;
-    background-color: #5c6c79;
-    cursor: pointer;
-    border: 3px solid #5c6c79;
-    transition: ease-in-out 0.3s;
-  }
-
-  .subscribe-button:hover {
-    background-color: white;
-    color: #5c6c79;
-    border: 3px solid #5c6c79;
-    transition: ease-in-out 0.3s;
   }
 
   .company-text-title {
     font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 00px;
-    margin-top: 0px;
   }
 
   .footer-items-title {
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 15px;
-    font-weight: 600;
-  }
-
-  .company-text {
-    flex: 2;
   }
 
   .company-text-info {
-    margin-right: 110px;
     font-size: 12px;
   }
 
   .footer-items-list {
-    list-style-type: none;
     font-size: 12px;
-  }
-
-  .footer-items-link {
-    text-decoration: none;
-    color: #c3c3c3;
   }
 
   .media-links {
     font-size: 20px;
-    margin-right: 20px;
-    color: white;
   }
-
 }
