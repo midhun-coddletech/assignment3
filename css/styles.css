@@ -623,6 +623,7 @@ footer {
 
   .process-timeline {
     margin-top: 60px;
+    grid-template-columns: 50px auto;
     column-gap: 15px;
     row-gap: 15px;
   }
@@ -720,3 +721,232 @@ footer {
     font-size: 20px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 90%;
+    padding: 50px 20px;
+  }
+
+  nav {
+    max-width: 90%;
+    padding: 40px 20px;
+  }
+
+  .header-section-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .banner-image {
+    max-width: 500px;
+  }
+
+  .header-banner {
+    left: -50%;
+    padding-right: 110px;
+  }
+
+  .header-content {
+    font-size: 10px;
+    max-width: 250px;
+    padding: 20px 35px;
+  }
+
+  .down-arrow-container {
+    font-size: 14px;
+    bottom: 40px;
+    right: 5px;
+    height: 60px;
+    width: 70px;
+  }
+
+  .square-box {
+    bottom: 40px;
+    left: 160px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .benefits-section-title {
+    font-size: 25px;
+    width: 300px;
+  }
+
+  .dash-icon {
+    font-size: 100px;
+  }
+
+  .benefits-grid {
+    gap: 10px;
+  }
+
+  .benefits-icons {
+    font-size: 30px;
+  }
+
+  .benefits-items-title {
+    font-size: 16px;
+  }
+
+  .benefits-item-description {
+    font-size: 10px;
+  }
+
+  .experience-container {
+    gap: 60px;
+  }
+
+  .experience-image {
+    max-width: 300px;
+  }
+
+  .experience-section-title {
+    max-width: 250px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .experience-text {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+  .portfolio-items-list {
+    gap: 30px;
+    margin: 10px 0px;
+  }
+
+  .portfolio-items-title {
+    font-size: 30px;
+  }
+
+  .portfolio-items-text {
+    max-width: 80px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .learn-more-button {
+    padding: 8px 16px;
+    font-size: 8px;
+  }
+
+  .process-container {
+    gap: 50px;
+  }
+
+  .process-section-title {
+    font-size: 25px;
+    width: 300px;
+    line-height: 1.5;
+  }
+
+  .process-timeline {
+    margin-top: 50px;
+    grid-template-columns: 40px auto;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .process-items-title {
+    font-size: 16px;
+  }
+
+  .process-items-text {
+    font-size: 11px;
+  }
+
+  .guest-room-image {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .feedback-head-text {
+    font-size: 25px;
+    width: 250px;
+  }
+
+  .feedback-box {
+    padding: 20px;
+    gap: 8px;
+  }
+
+  .feedback-title {
+    font-size: 16px;
+    max-width: 200px;
+  }
+
+  .feedback-text {
+    font-size: 9px;
+  }
+
+  .user-profile-picture {
+    max-width: 30px;
+  }
+
+  .username {
+    font-size: 9px;
+  }
+
+  .user-designation {
+    font-size: 8px;
+  }
+
+  .subscribe-container {
+    max-width: 550px;
+  }
+
+  .subscribe-title {
+    font-size: 30px;
+  }
+
+  .subscribe-text {
+    margin: 20px;
+    font-size: 14px;
+  }
+
+  .subscribe-box {
+    width: 350px;
+    bottom: -25px;
+    padding: 5px;
+  }
+
+  .email-box{
+    font-size: 12px;
+  }
+
+  .subscribe-button {
+    padding: 8px 32px;
+    font-size: 14px;
+  }
+
+  .company-text-title {
+    font-size: 16px;
+  }
+
+  .footer-items-title {
+    font-size: 12px;
+  }
+
+  .company-text-info {
+    font-size: 9px;
+    margin-right: 25px;
+  }
+
+  .footer-items-list {
+    font-size: 9px;
+  }
+
+  .media-links {
+    font-size: 16px;
+  }
+}
+
