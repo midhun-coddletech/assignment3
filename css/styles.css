@@ -130,6 +130,33 @@ nav {
   z-index: -1;
 }
 
+.side-arrows{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  color: #596E79;
+  right: 30px;
+  top: 200px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.rotated-dash-header{
+  height: 50px;
+  width: 1px;
+  background-color: #596E79;
+
+}
+
+.up-arrow{
+  padding: 5px 0px;
+}
+
+.down-arrow{
+  padding-bottom: 40px;
+}
+
 .benefits-title-group {
   display: flex;
   align-items: center;
@@ -549,6 +576,26 @@ footer {
     width: 80px;
   }
 
+  .side-arrows{
+    right: -5px;
+    top: 200px;
+    font-weight: 300;
+    font-size: 10px;
+  }
+  
+  .rotated-dash-header{
+    height: 25px;
+    width: 1px;  
+  }
+  
+  .up-arrow{
+    padding: 5px 0px;
+  }
+  
+  .down-arrow{
+    padding-bottom: 20px;
+  }
+
   .benefits-section-title {
     font-size: 35px;
   }
@@ -762,6 +809,11 @@ footer {
     right: 5px;
     height: 60px;
     width: 70px;
+  }
+
+  .side-arrows{
+    right: -10px;
+    top: 150px;
   }
 
   .square-box {
@@ -1021,6 +1073,10 @@ footer {
     position: relative;
     top: 30px;
     left: 0;
+  }
+
+  .side-arrows{
+    display: none;
   }
 
   .header-content {
