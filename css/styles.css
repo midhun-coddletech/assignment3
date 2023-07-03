@@ -30,6 +30,14 @@ nav {
   color: #5c6c79;
 }
 
+#checkbtn {
+  display: none;
+}
+
+.check {
+  display: none;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -229,7 +237,6 @@ nav {
 .learn-more-button:hover {
   background-color: #596E79;
   color: white;
-  border-color: #596E79;
   transition: ease-in-out 0.3s;
 }
 
@@ -253,6 +260,8 @@ nav {
   column-gap: 30px;
   row-gap: 20px;
   align-items: center;
+  margin-bottom: 30px;
+  color: #5c6c79;
 }
 
 .number {
@@ -274,11 +283,6 @@ nav {
 .process-items-text {
   color: #5c6c79;
   max-width: 437px;
-}
-
-.process-timeline {
-  margin-bottom: 30px;
-  color: #5c6c79;
 }
 
 .rotated-dash {
@@ -951,7 +955,47 @@ footer {
     padding: 40px 20px;
   }
 
+  .check {
+    display: block;
+    font-size: 20px;
+    color: #596E79;
+  }
+
+  #checkbtn {
+    display: none;
+  }
+
+  #checkbtn:checked~.nav-links {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: white;
+    right: 0;
+    left: 0;
+  }
+
+  .nav-links {
+    position: fixed;
+    display: none;
+    width: 100%;
+    padding: 10px;
+    top: 70px;
+    left: 0;
+    background-color: white;
+    text-align: center;
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
   .header-container {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
   }
@@ -1083,7 +1127,7 @@ footer {
 
   .process-timeline {
     margin-top: 40px;
-    grid-template-columns: 2;
+    grid-template-columns: 40px auto;
     gap: 20px;
   }
 
