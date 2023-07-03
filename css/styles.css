@@ -30,6 +30,14 @@ nav {
   color: #5c6c79;
 }
 
+#checkbtn {
+  display: none;
+}
+
+.check {
+  display: none;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -229,13 +237,7 @@ nav {
 .learn-more-button:hover {
   background-color: #596E79;
   color: white;
-  border-color: #596E79;
   transition: ease-in-out 0.3s;
-}
-
-.button-group {
-  display: flex;
-  align-items: center;
 }
 
 .process-container {
@@ -258,6 +260,8 @@ nav {
   column-gap: 30px;
   row-gap: 20px;
   align-items: center;
+  margin-bottom: 30px;
+  color: #5c6c79;
 }
 
 .number {
@@ -279,11 +283,6 @@ nav {
 .process-items-text {
   color: #5c6c79;
   max-width: 437px;
-}
-
-.process-timeline {
-  margin-bottom: 30px;
-  color: #5c6c79;
 }
 
 .rotated-dash {
@@ -576,7 +575,7 @@ footer {
 
   .experience-container {
     gap: 80px;
-}
+  }
 
   .experience-image {
     max-width: 400px;
@@ -623,6 +622,7 @@ footer {
 
   .process-timeline {
     margin-top: 60px;
+    grid-template-columns: 50px auto;
     column-gap: 15px;
     row-gap: 15px;
   }
@@ -718,5 +718,555 @@ footer {
 
   .media-links {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 90%;
+    padding: 50px 20px;
+  }
+
+  nav {
+    max-width: 90%;
+    padding: 40px 20px;
+  }
+
+  .header-section-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .banner-image {
+    max-width: 500px;
+  }
+
+  .header-banner {
+    left: -50%;
+    padding-right: 110px;
+  }
+
+  .header-content {
+    font-size: 10px;
+    max-width: 250px;
+    padding: 20px 35px;
+  }
+
+  .down-arrow-container {
+    font-size: 14px;
+    bottom: 40px;
+    right: 5px;
+    height: 60px;
+    width: 70px;
+  }
+
+  .square-box {
+    bottom: 40px;
+    left: 160px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .benefits-section-title {
+    font-size: 25px;
+    width: 300px;
+  }
+
+  .dash-icon {
+    font-size: 100px;
+  }
+
+  .benefits-grid {
+    gap: 10px;
+  }
+
+  .benefits-icons {
+    font-size: 30px;
+  }
+
+  .benefits-items-title {
+    font-size: 16px;
+  }
+
+  .benefits-item-description {
+    font-size: 10px;
+  }
+
+  .experience-container {
+    gap: 60px;
+  }
+
+  .experience-image {
+    max-width: 300px;
+  }
+
+  .experience-section-title {
+    max-width: 250px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .experience-text {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+  .portfolio-items-list {
+    gap: 30px;
+    margin: 10px 0px;
+  }
+
+  .portfolio-items-title {
+    font-size: 30px;
+  }
+
+  .portfolio-items-text {
+    max-width: 80px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .learn-more-button {
+    padding: 8px 16px;
+    font-size: 8px;
+  }
+
+  .process-container {
+    gap: 50px;
+  }
+
+  .process-section-title {
+    font-size: 25px;
+    width: 300px;
+    line-height: 1.5;
+  }
+
+  .process-timeline {
+    margin-top: 50px;
+    grid-template-columns: 40px auto;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .process-items-title {
+    font-size: 16px;
+  }
+
+  .process-items-text {
+    font-size: 11px;
+  }
+
+  .guest-room-image {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .feedback-head-text {
+    font-size: 25px;
+    width: 250px;
+  }
+
+  .feedback-box {
+    padding: 20px;
+    gap: 8px;
+  }
+
+  .feedback-title {
+    font-size: 16px;
+    max-width: 200px;
+  }
+
+  .feedback-text {
+    font-size: 9px;
+  }
+
+  .user-profile-picture {
+    max-width: 30px;
+  }
+
+  .username {
+    font-size: 9px;
+  }
+
+  .user-designation {
+    font-size: 8px;
+  }
+
+  .subscribe-container {
+    max-width: 550px;
+  }
+
+  .subscribe-title {
+    font-size: 30px;
+  }
+
+  .subscribe-text {
+    margin: 20px;
+    font-size: 14px;
+  }
+
+  .subscribe-box {
+    width: 350px;
+    bottom: -25px;
+    padding: 5px;
+  }
+
+  .email-box {
+    font-size: 12px;
+  }
+
+  .subscribe-button {
+    padding: 8px 32px;
+    font-size: 14px;
+  }
+
+  .company-text-title {
+    font-size: 16px;
+  }
+
+  .footer-items-title {
+    font-size: 12px;
+  }
+
+  .company-text-info {
+    font-size: 9px;
+    margin-right: 25px;
+  }
+
+  .footer-items-list {
+    font-size: 9px;
+  }
+
+  .media-links {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .container {
+    padding: 40px 20px;
+  }
+
+  .check {
+    display: block;
+    font-size: 20px;
+    color: #596E79;
+  }
+
+  #checkbtn {
+    display: none;
+  }
+
+  #checkbtn:checked~.nav-links {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: white;
+    right: 0;
+    left: 0;
+  }
+
+  .nav-links {
+    position: fixed;
+    display: none;
+    width: 100%;
+    padding: 10px;
+    top: 70px;
+    left: 0;
+    background-color: white;
+    text-align: center;
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
+  .header-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-section-title {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .section-brief {
+    font-size: 12px;
+  }
+
+  .banner-image {
+    max-width: 100%;
+  }
+
+  .header-banner {
+    justify-content: center;
+    padding-right: 0px;
+    position: relative;
+    top: 30px;
+    left: 0;
+  }
+
+  .header-content {
+    padding: 20px;
+  }
+
+  .down-arrow-container {
+    bottom: 270px;
+    right: 15px;
+    height: 30px;
+    width: 40px;
+    font-size: 10px;
+  }
+
+  .square-box {
+    bottom: 270px;
+    left: 13px;
+    height: 30px;
+    width: 30px;
+    border-width: 2px;
+  }
+
+  .benefits-container {
+    padding-top: 0px;
+  }
+
+  .dash-icon {
+    font-size: 50px;
+  }
+
+  .benefits-section-title {
+    font-size: 24px;
+    max-width: 100%;
+    margin: 30px 10px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: auto;
+  }
+
+  .benefits-items-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .benefits-item-description {
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .experience-image {
+    max-width: 100%;
+  }
+
+  .experience-section-title {
+    max-width: none;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .experience-text {
+    max-width: none;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .portfolio-items-list {
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .portfolio-items-title {
+    font-size: 24px;
+  }
+
+  .portfolio-items-text {
+    max-width: none;
+  }
+
+  .learn-more-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .process-container {
+    flex-direction: column;
+  }
+
+  .process-section-title {
+    font-size: 24px;
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .process-timeline {
+    margin-top: 40px;
+    grid-template-columns: 40px auto;
+    gap: 20px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .process-items-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .process-items-text {
+    font-size: 12px;
+  }
+
+  .guest-room-image {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .feedback-head {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .feedback-head-text {
+    font-size: 26px;
+    width: 100%;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    visibility: hidden;
+  }
+
+  .feedback-group {
+    grid-template-columns: 1fr;
+  }
+
+  .feedback-box {
+    padding: 30px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    font-size: 12px;
+  }
+
+  .double-quotes {
+    font-size: 50px;
+    margin-left: -3px;
+  }
+
+  .feedback-title {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .feedback-text {
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+  .user-data-section {
+    gap: 15px;
+  }
+
+  .user-profile-picture {
+    max-width: 30px;
+  }
+
+  .username {
+    font-size: 12px;
+  }
+
+  .user-designation {
+    font-size: 11px;
+  }
+
+  .subscribe-container {
+    max-width: 100%;
+  }
+
+  .subscribe-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .subscribe-text {
+    margin: 15px 0 8px 0;
+    font-size: 12px;
+  }
+
+  .subscribe-box {
+    position: absolute;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .email-box {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .subscribe-button {
+    padding: 8px 24px;
+    font-size: 12px;
+  }
+
+  .footer-elements {
+    flex-direction: column;
+  }
+
+  .company-text-info {
+    margin-right: 0;
+  }
+
+  .company-text-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-items-title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .footer-items-list {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .media-links {
+    font-size: 18px;
+    margin-right: 10px;
   }
 }
