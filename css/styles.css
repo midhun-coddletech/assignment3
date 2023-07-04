@@ -319,6 +319,10 @@ nav {
   background-color: #e2e8f0;
 }
 
+.rotated-dash:last-of-type {
+  visibility: hidden;
+}
+
 .guest-room-image {
   max-width: 40%;
   border-radius: 5px;
