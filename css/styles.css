@@ -75,7 +75,7 @@ nav {
 
 .banner-image {
   display: flex;
-  max-width: 1000px;
+  max-width: 75%;
   margin-left: auto;
   border-radius: 5px;
 }
@@ -122,7 +122,7 @@ nav {
 .square-box {
   position: absolute;
   bottom: 60px;
-  left: 250px;
+  left: 360px;
   height: 120px;
   width: 120px;
   border: 3px solid #5c6c79;
@@ -130,7 +130,7 @@ nav {
   z-index: -1;
 }
 
-.side-arrows{
+.side-arrows {
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -142,18 +142,18 @@ nav {
   font-size: 15px;
 }
 
-.rotated-dash-header{
+.rotated-dash-header {
   height: 50px;
   width: 1px;
   background-color: #596E79;
 
 }
 
-.up-arrow{
+.up-arrow {
   padding: 5px 0px;
 }
 
-.down-arrow{
+.down-arrow {
   padding-bottom: 40px;
 }
 
@@ -166,7 +166,7 @@ nav {
   font-size: 40px;
   max-width: 500px;
   line-height: 1.5;
-  margin: 0px 0px 10px 30px;  
+  margin: 0px 0px 10px 30px;
 }
 
 .dash-icon {
@@ -212,7 +212,7 @@ nav {
 }
 
 .experience-image {
-  max-width: 500px;
+  max-width: 40%;
   border-radius: 5px;
 }
 
@@ -320,7 +320,7 @@ nav {
 }
 
 .guest-room-image {
-  max-width: 500px;
+  max-width: 40%;
   border-radius: 5px;
   margin-top: 15px;
   margin-bottom: 35px;
@@ -547,7 +547,7 @@ footer {
   }
 
   .banner-image {
-    max-width: 600px;
+    max-width: 63%;
   }
 
   .header-banner {
@@ -571,28 +571,28 @@ footer {
 
   .square-box {
     bottom: 50px;
-    left: 300px;
+    left: 340px;
     height: 80px;
     width: 80px;
   }
 
-  .side-arrows{
+  .side-arrows {
     right: -5px;
     top: 200px;
     font-weight: 300;
     font-size: 10px;
   }
-  
-  .rotated-dash-header{
+
+  .rotated-dash-header {
     height: 25px;
-    width: 1px;  
+    width: 1px;
   }
-  
-  .up-arrow{
+
+  .up-arrow {
     padding: 5px 0px;
   }
-  
-  .down-arrow{
+
+  .down-arrow {
     padding-bottom: 20px;
   }
 
@@ -625,7 +625,7 @@ footer {
   }
 
   .experience-image {
-    max-width: 400px;
+    max-width: 40%;
   }
 
   .experience-section-title {
@@ -688,7 +688,7 @@ footer {
   }
 
   .guest-room-image {
-    max-width: 400px;
+    max-width: 40%;
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -779,7 +779,7 @@ footer {
     padding: 40px 20px;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 11px;
   }
 
@@ -789,7 +789,7 @@ footer {
   }
 
   .banner-image {
-    max-width: 500px;
+    max-width: 72%;
   }
 
   .header-banner {
@@ -811,14 +811,14 @@ footer {
     width: 70px;
   }
 
-  .side-arrows{
+  .side-arrows {
     right: -10px;
     top: 150px;
   }
 
   .square-box {
     bottom: 40px;
-    left: 160px;
+    left: 190px;
     height: 60px;
     width: 60px;
   }
@@ -853,7 +853,7 @@ footer {
   }
 
   .experience-image {
-    max-width: 300px;
+    max-width: 40%;
   }
 
   .experience-section-title {
@@ -918,7 +918,7 @@ footer {
   }
 
   .guest-room-image {
-    max-width: 300px;
+    max-width: 40%;
     margin-bottom: 30px;
   }
 
@@ -1003,7 +1003,7 @@ footer {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 
   .container {
     padding: 40px 20px;
@@ -1019,7 +1019,7 @@ footer {
     display: none;
   }
 
-  #checkbtn:checked ~ .nav-links {
+  #checkbtn:checked~.nav-links {
     display: block;
   }
 
@@ -1075,7 +1075,7 @@ footer {
     left: 0;
   }
 
-  .side-arrows{
+  .side-arrows {
     display: none;
   }
 
