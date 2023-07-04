@@ -121,8 +121,8 @@ nav {
 
 .square-box {
   position: absolute;
-  bottom: 60px;
-  left: 360px;
+  bottom: 8%;
+  left: 26%;
   height: 120px;
   width: 120px;
   border: 3px solid #5c6c79;
@@ -135,8 +135,8 @@ nav {
   position: absolute;
   flex-direction: column;
   color: #596E79;
-  right: 30px;
-  top: 200px;
+  right: 3%;
+  top: 27%;
   align-items: center;
   font-weight: 400;
   font-size: 15px;
@@ -317,6 +317,10 @@ nav {
   width: 2px;
   margin: auto;
   background-color: #e2e8f0;
+}
+
+.rotated-dash:last-of-type {
+  visibility: hidden;
 }
 
 .guest-room-image {
@@ -570,15 +574,15 @@ footer {
   }
 
   .square-box {
-    bottom: 50px;
-    left: 340px;
+    bottom: 10%;
+    left: 36%;
     height: 80px;
     width: 80px;
   }
 
   .side-arrows {
-    right: -5px;
-    top: 200px;
+    right: 0%;
+    top: 35%;
     font-weight: 300;
     font-size: 10px;
   }
@@ -812,13 +816,13 @@ footer {
   }
 
   .side-arrows {
-    right: -10px;
-    top: 150px;
+    right: 0%;
+    top: 35%;
   }
 
   .square-box {
-    bottom: 40px;
-    left: 190px;
+    bottom: 10%;
+    left: 28%;
     height: 60px;
     width: 60px;
   }
