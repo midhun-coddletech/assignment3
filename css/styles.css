@@ -85,7 +85,6 @@ nav {
   top: 20%;
   left: -63%;
   width: 100%;
-  height: 50%;
   display: flex;
   justify-content: right;
   background-color: #5c6c79;
@@ -1010,7 +1009,7 @@ footer {
 @media (max-width: 600px) {
 
   .container {
-    padding: 40px 20px;
+    padding: 30px 16px;
   }
 
   .check {
@@ -1088,16 +1087,16 @@ footer {
   }
 
   .down-arrow-container {
-    bottom: 270px;
-    right: 15px;
+    bottom: 260px;
+    right: 10px;
     height: 30px;
     width: 40px;
     font-size: 10px;
   }
 
   .square-box {
-    bottom: 270px;
-    left: 13px;
+    bottom: 260px;
+    left: 10px;
     height: 30px;
     width: 30px;
     border-width: 2px;
@@ -1108,13 +1107,14 @@ footer {
   }
 
   .dash-icon {
-    font-size: 50px;
+    display: none;
   }
 
   .benefits-section-title {
     font-size: 24px;
     max-width: 100%;
-    margin: 30px 10px;
+    margin: 20px 0px;
+    line-height: 1.2;
   }
 
   .benefits-grid {
@@ -1134,6 +1134,7 @@ footer {
 
   .experience-container {
     flex-direction: column;
+    padding: 0px 16px;
     gap: 30px;
   }
 
@@ -1144,7 +1145,7 @@ footer {
   .experience-section-title {
     max-width: none;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 1.2;
   }
 
   .experience-text {
@@ -1178,18 +1179,18 @@ footer {
 
   .process-container {
     flex-direction: column;
+    gap: 0;
   }
 
   .process-section-title {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 1.2;
     width: 100%;
-    text-align: center;
   }
 
   .process-timeline {
-    margin-top: 40px;
-    gap: 20px;
+    gap: 10px;
+    margin-top: 30px;
   }
 
   .number {
@@ -1210,24 +1211,28 @@ footer {
 
   .guest-room-image {
     max-width: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .feedbacks{
+    padding-top: 0px;
   }
 
   .feedback-head {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .feedback-head-text {
     font-size: 26px;
     width: 100%;
+    line-height: 1.2;
   }
 
-  .left-arrow,
-  .right-arrow {
-    visibility: hidden;
+  .feedback-navigator {
+    display: none;
   }
 
   .feedback-group {
@@ -1235,15 +1240,13 @@ footer {
   }
 
   .feedback-box {
-    padding: 30px;
+    padding: 10px 20px 20px 20px;
     grid-template-columns: 1fr;
-    gap: 15px;
     font-size: 12px;
   }
 
   .double-quotes {
     font-size: 50px;
-    margin-left: -3px;
   }
 
   .feedback-title {
@@ -1273,12 +1276,15 @@ footer {
   }
 
   .subscribe-container {
+    padding-top: 0px;
+    padding-bottom: 40px;
     max-width: 100%;
   }
 
   .subscribe-title {
     font-size: 24px;
-    margin: 20px 0;
+    line-height: 1.2;
+    margin: 0px;
   }
 
   .subscribe-text {
