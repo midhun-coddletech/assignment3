@@ -73,10 +73,15 @@ nav {
   position: relative;
 }
 
-.banner-image {
+.banner-image-wrapper {
   display: flex;
   max-width: 75%;
   margin-left: auto;
+}
+
+.banner-image {
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 5px;
 }
 
@@ -156,6 +161,10 @@ nav {
   padding-bottom: 40px;
 }
 
+.benefits-container {
+  padding-top: 0px;
+}
+
 .benefits-title-group {
   display: flex;
   align-items: center;
@@ -210,8 +219,13 @@ nav {
   gap: 150px;
 }
 
-.experience-image {
+.experience-image-wrapper {
   max-width: 40%;
+}
+
+.experience-image{
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 5px;
 }
 
@@ -249,6 +263,11 @@ nav {
   max-width: 100px;
 }
 
+.learn-more-button-container{
+  position: relative;
+  display: flex;
+}
+
 .learn-more-button {
   background-color: white;
   border-width: 2px;
@@ -264,6 +283,14 @@ nav {
   background-color: #596E79;
   color: white;
   transition: ease-in-out 0.3s;
+}
+
+.right-long-arrow{
+  font-size: 40px;
+  position: absolute;
+  right: 66%;
+  color: #596E79;
+  align-self: center;
 }
 
 .process-container {
@@ -322,11 +349,14 @@ nav {
   visibility: hidden;
 }
 
-.guest-room-image {
-  max-width: 40%;
+.guest-room-image-wrapper {
+  max-width: 45%;
+}
+
+.guest-room-image{
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 5px;
-  margin-top: 15px;
-  margin-bottom: 35px;
 }
 
 .feedback-head {
@@ -371,6 +401,7 @@ nav {
 .double-quotes {
   font-size: 70px;
   margin-left: -5px;
+  line-height: 1;
 }
 
 .feedback-title {
@@ -392,9 +423,14 @@ nav {
   gap: 30px;
 }
 
-.user-profile-picture {
+.user-profile-picture-wrapper {
   max-width: 50px;
-  border-radius: 100%;
+}
+
+.user-profile-picture{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
 }
 
 .username {
@@ -549,8 +585,14 @@ footer {
     line-height: 40px;
   }
 
-  .banner-image {
+  .banner-image-wrapper {
     max-width: 63%;
+  }
+
+  .banner-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .header-banner {
@@ -627,8 +669,14 @@ footer {
     gap: 80px;
   }
 
-  .experience-image {
+  .experience-image-wrapper {
     max-width: 40%;
+  }
+
+  .experience-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .experience-section-title {
@@ -654,6 +702,11 @@ footer {
   .portfolio-items-text {
     max-width: 100px;
     margin-bottom: 20px;
+  }
+
+  .right-long-arrow{
+    font-size: 30px;
+    right: 70%;
   }
 
   .learn-more-button {
@@ -690,10 +743,14 @@ footer {
     font-size: 13px;
   }
 
-  .guest-room-image {
-    max-width: 40%;
-    margin-top: 10px;
-    margin-bottom: 40px;
+  .guest-room-image-wrapper {
+    max-width: 45%;
+  }
+
+  .guest-room-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .feedback-head-text {
@@ -715,8 +772,14 @@ footer {
     font-size: 11px;
   }
 
-  .user-profile-picture {
+  .user-profile-picture-wrapper {
     max-width: 40px;
+  }
+
+  .user-profile-picture{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
   }
 
   .username {
@@ -791,8 +854,14 @@ footer {
     line-height: 30px;
   }
 
-  .banner-image {
+  .banner-image-wrapper {
     max-width: 72%;
+  }
+
+  .banner-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .header-banner {
@@ -855,8 +924,14 @@ footer {
     gap: 60px;
   }
 
-  .experience-image {
+  .experience-image-wrapper {
     max-width: 40%;
+  }
+
+  .experience-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .experience-section-title {
@@ -890,6 +965,11 @@ footer {
     font-size: 8px;
   }
 
+  .right-long-arrow{
+    font-size: 20px;
+    right: 71%;
+  }
+
   .process-container {
     gap: 50px;
   }
@@ -920,9 +1000,14 @@ footer {
     font-size: 11px;
   }
 
-  .guest-room-image {
-    max-width: 40%;
-    margin-bottom: 30px;
+  .guest-room-image-wrapper {
+    max-width: 45%;
+  }
+
+  .guest-room-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .feedback-head-text {
@@ -944,8 +1029,14 @@ footer {
     font-size: 9px;
   }
 
-  .user-profile-picture {
+  .user-profile-picture-wrapper {
     max-width: 30px;
+  }
+
+  .user-profile-picture{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
   }
 
   .username {
@@ -1066,8 +1157,14 @@ footer {
     font-size: 12px;
   }
 
+  .banner-image-wrapper {
+    max-width: 100%;
+  }
+
   .banner-image {
     max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .header-banner {
@@ -1139,8 +1236,14 @@ footer {
     align-items: center;
   }
 
-  .experience-image {
+  .experience-image-wrapper {
     max-width: 75%;
+  }
+
+  .experience-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
   }
 
   .experience-section-title {
@@ -1168,6 +1271,10 @@ footer {
 
   .portfolio-items-text {
     max-width: none;
+  }
+
+  .right-long-arrow{
+    right: 35%;
   }
 
   .learn-more-button {
@@ -1211,13 +1318,17 @@ footer {
     font-size: 12px;
   }
 
-  .guest-room-image {
+  .guest-room-image-wrapper {
     max-width: 75%;
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
 
-  .feedbacks{
+  .guest-room-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+
+  .feedbacks {
     padding-top: 0px;
   }
 
@@ -1242,7 +1353,7 @@ footer {
   }
 
   .feedback-box {
-    padding: 10px 20px 20px 20px;
+    padding: 20px;
     grid-template-columns: 1fr;
     font-size: 12px;
   }
@@ -1265,8 +1376,14 @@ footer {
     gap: 15px;
   }
 
-  .user-profile-picture {
+  .user-profile-picture-wrapper {
     max-width: 30px;
+  }
+
+  .user-profile-picture{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
   }
 
   .username {
@@ -1337,5 +1454,17 @@ footer {
   .media-links {
     font-size: 18px;
     margin-right: 10px;
+  }
+}
+
+@media (max-width:426px) {
+  .right-long-arrow{
+    right: 28%;
+  }
+}
+
+@media (max-width:321px) {
+  .right-long-arrow{
+    right: 20%;
   }
 }
