@@ -391,7 +391,7 @@ nav {
 .feedback-box {
   padding: 50px;
   display: grid;
-  place-content: baseline;
+  align-items: baseline;
   gap: 20px;
   color: white;
   border-radius: 5px;
