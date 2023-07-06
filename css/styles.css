@@ -87,18 +87,18 @@ nav {
 
 .header-banner {
   position: absolute;
-  top: 20%;
-  left: -63%;
-  width: 100%;
+  top: 19%;
+  left: -50%;
+  max-width: 100%;
   display: flex;
   justify-content: right;
   background-color: #5c6c79;
   border-radius: 5px;
+  padding: 3% 15% 3% 56%;
 }
 
 .header-content {
-  max-width: 500px;
-  padding: 30px 80px;
+  max-width: 300px;
   color: white;
 }
 
@@ -596,14 +596,14 @@ footer {
   }
 
   .header-banner {
-    left: -50%;
-    padding-right: 155px;
+    top: 25%;
+    left: -47%;
+    padding: 2% 25% 2% 50%;
   }
 
   .header-content {
     font-size: 12px;
-    max-width: 350px;
-    padding: 30px 60px;
+    max-width: 230px;
   }
 
   .down-arrow-container {
@@ -673,7 +673,7 @@ footer {
     max-width: 46%;
   }
 
-  .experience-image{
+  .experience-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
@@ -865,14 +865,14 @@ footer {
   }
 
   .header-banner {
-    left: -50%;
-    padding-right: 110px;
+    top: 27%;
+    left: -55%;
+    padding: 2% 15% 2% 58%;
   }
 
   .header-content {
     font-size: 10px;
     max-width: 250px;
-    padding: 20px 35px;
   }
 
   .down-arrow-container {
@@ -1173,7 +1173,7 @@ footer {
 
   .header-banner {
     justify-content: center;
-    padding-right: 0px;
+    padding: 0px;
     position: relative;
     top: 30px;
     left: 0;
@@ -1184,11 +1184,11 @@ footer {
   }
 
   .header-content {
-    padding: 20px;
+    padding: 15px;
   }
 
   .down-arrow-container {
-    bottom: 260px;
+    bottom: 230px;
     right: 10px;
     height: 30px;
     width: 40px;
@@ -1196,7 +1196,7 @@ footer {
   }
 
   .square-box {
-    bottom: 260px;
+    bottom: 230px;
     left: 10px;
     height: 30px;
     width: 30px;
