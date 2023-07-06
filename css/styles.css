@@ -220,7 +220,7 @@ nav {
 }
 
 .experience-image-wrapper {
-  max-width: 40%;
+  max-width: 43%;
 }
 
 .experience-image{
@@ -288,7 +288,7 @@ nav {
 .right-long-arrow{
   font-size: 40px;
   position: absolute;
-  right: 66%;
+  right: 65%;
   color: #596E79;
   align-self: center;
 }
@@ -670,7 +670,7 @@ footer {
   }
 
   .experience-image-wrapper {
-    max-width: 40%;
+    max-width: 46%;
   }
 
   .experience-image{
@@ -706,7 +706,7 @@ footer {
 
   .right-long-arrow{
     font-size: 30px;
-    right: 70%;
+    right: 66%;
   }
 
   .learn-more-button {
@@ -1460,6 +1460,12 @@ footer {
 @media (max-width:426px) {
   .right-long-arrow{
     right: 28%;
+  }
+}
+
+@media (max-width:376px) {
+  .right-long-arrow{
+    right: 25%;
   }
 }
 
