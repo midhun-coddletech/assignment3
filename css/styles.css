@@ -220,10 +220,10 @@ nav {
 }
 
 .experience-image-wrapper {
-  max-width: 40%;
+  max-width: 43%;
 }
 
-.experience-image{
+.experience-image {
   max-width: 100%;
   max-height: 100%;
   border-radius: 5px;
@@ -263,7 +263,7 @@ nav {
   max-width: 100px;
 }
 
-.learn-more-button-container{
+.learn-more-button-container {
   position: relative;
   display: flex;
 }
@@ -285,10 +285,10 @@ nav {
   transition: ease-in-out 0.3s;
 }
 
-.right-long-arrow{
+.right-long-arrow {
   font-size: 40px;
   position: absolute;
-  right: 66%;
+  right: 65%;
   color: #596E79;
   align-self: center;
 }
@@ -353,7 +353,7 @@ nav {
   max-width: 45%;
 }
 
-.guest-room-image{
+.guest-room-image {
   max-width: 100%;
   max-height: 100%;
   border-radius: 5px;
@@ -391,7 +391,7 @@ nav {
 .feedback-box {
   padding: 50px;
   display: grid;
-  place-content: baseline;
+  align-items: baseline;
   gap: 20px;
   color: white;
   border-radius: 5px;
@@ -427,7 +427,7 @@ nav {
   max-width: 50px;
 }
 
-.user-profile-picture{
+.user-profile-picture {
   max-width: 100%;
   max-height: 100%;
   border-radius: 50%;
@@ -670,7 +670,7 @@ footer {
   }
 
   .experience-image-wrapper {
-    max-width: 40%;
+    max-width: 46%;
   }
 
   .experience-image{
@@ -704,9 +704,9 @@ footer {
     margin-bottom: 20px;
   }
 
-  .right-long-arrow{
+  .right-long-arrow {
     font-size: 30px;
-    right: 70%;
+    right: 66%;
   }
 
   .learn-more-button {
@@ -747,7 +747,7 @@ footer {
     max-width: 45%;
   }
 
-  .guest-room-image{
+  .guest-room-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
@@ -776,7 +776,7 @@ footer {
     max-width: 40px;
   }
 
-  .user-profile-picture{
+  .user-profile-picture {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
@@ -928,7 +928,7 @@ footer {
     max-width: 40%;
   }
 
-  .experience-image{
+  .experience-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
@@ -965,7 +965,7 @@ footer {
     font-size: 8px;
   }
 
-  .right-long-arrow{
+  .right-long-arrow {
     font-size: 20px;
     right: 71%;
   }
@@ -1004,7 +1004,7 @@ footer {
     max-width: 45%;
   }
 
-  .guest-room-image{
+  .guest-room-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
@@ -1033,7 +1033,7 @@ footer {
     max-width: 30px;
   }
 
-  .user-profile-picture{
+  .user-profile-picture {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
@@ -1115,6 +1115,10 @@ footer {
 
   #checkbtn:checked~.nav-links {
     display: block;
+  }
+
+  #checkbtn:checked~.check {
+    rotate: 90deg;
   }
 
   nav {
@@ -1240,7 +1244,7 @@ footer {
     max-width: 75%;
   }
 
-  .experience-image{
+  .experience-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
@@ -1273,7 +1277,7 @@ footer {
     max-width: none;
   }
 
-  .right-long-arrow{
+  .right-long-arrow {
     right: 35%;
   }
 
@@ -1322,7 +1326,7 @@ footer {
     max-width: 75%;
   }
 
-  .guest-room-image{
+  .guest-room-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
@@ -1380,7 +1384,7 @@ footer {
     max-width: 30px;
   }
 
-  .user-profile-picture{
+  .user-profile-picture {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
@@ -1458,13 +1462,19 @@ footer {
 }
 
 @media (max-width:426px) {
-  .right-long-arrow{
+  .right-long-arrow {
     right: 28%;
   }
 }
 
+@media (max-width:376px) {
+  .right-long-arrow {
+    right: 25%;
+  }
+}
+
 @media (max-width:321px) {
-  .right-long-arrow{
+  .right-long-arrow {
     right: 20%;
   }
 }
