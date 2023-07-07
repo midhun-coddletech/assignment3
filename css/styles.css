@@ -391,7 +391,6 @@ nav {
 .feedback-box {
   padding: 50px;
   display: grid;
-  align-items: baseline;
   gap: 20px;
   color: white;
   border-radius: 5px;
@@ -504,6 +503,7 @@ nav {
 
 footer {
   background-color: #596E79;
+  width: 100%;
 }
 
 .footer-elements {
@@ -532,8 +532,9 @@ footer {
 }
 
 .company-text-info {
-  margin-right: 110px;
-  font-size: 15px;
+  padding-right: 120px;
+  font-size: 13px;
+  color: #c3c3c3;
 }
 
 .about {
