@@ -1274,6 +1274,10 @@ footer {
     font-size: 24px;
   }
 
+  .portfolio-items-text {
+    max-width: none;
+  }
+
   .right-long-arrow {
     right: 35%;
   }
